@@ -46,7 +46,7 @@ Last Edit: 8-5-2013
 
 <Secondary>
 
--Fighter/Warrior
+-Warrior
  +Improved damage with melee weapons
  +Reduced Slow from medium+ armors
 -Archer
