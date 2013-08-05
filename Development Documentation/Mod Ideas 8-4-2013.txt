@@ -1,5 +1,5 @@
 Mod Ideas
-
+Last Edit: 8-5-2013
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 *Ages
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -175,7 +175,7 @@ Mod Ideas
      -High damage, medium knockback, medium-high range, slow speed
     <Pike
      -New, high-end polearm, no shield
-     -Medium-high damage, low knockback, high range, medium speed
+     -Medium damage, low knockback, high range, medium speed
     <Tower Shield
      -New, heavy shield deflects 70-100% of damage, deflects all arrow types
      -Serverely reduces attack damage
@@ -187,20 +187,40 @@ Mod Ideas
      -Very high mining speed, needs a high level miner
     <Plow
      -New, high end farming tool
-     -Mounted
+     -Mounted to a draft animal
 
    >Tier-4 smithing
 
     <DiamondWorking
+     -Requires a jeweler to cut diamonds
+     -Diamond ore is more rare, but drops more diamonds per ore
     <Diamond Anvil
-    <Kite Shield
-    <
-
+     -Top-tier anvil
+     -Can be used to forge any type of metal
+     -Can work with exoctic ores
+    
    >EndGame (Teir-5) smithing
 
-    -ExoticMetalWorking
-    -Exotic schematics
+    <ExoticMetalWorking
+     -MithrilWorking
+      +Can be made into any kind of armor, top defense of any metal
+     -OrichalcumWorking
+      +Can be made into any kind of tool or weapon, top performance of any metal
+    <Exotic schematics
+     -Kukri
+      +Exotic Knife
+      +New, High Damage, no knockback, medium-small reach, medium speed
+     -scimitar
+      +Exotic Sword
+      +New, Medium-High Damage, no knockback, medium reach, medium speed
+     -Tomahawk
+      +Exotic Fighting Axe
+      +New, Medium Damage, medium knockback, low reach, fast speed
+      +Can be thrown
     -Magic Smithing
+     -Iron Staff shaft
+      +Upgraded Staff base
+      +Enhances Fire and Electric spells
     -Technology componet smithing
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -233,11 +253,15 @@ Mod Ideas
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 *New Ores/Changes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 -Changes
+
+ +Ores now drop Raw metals instead of blocks
  +Veins less common but larger
- +Iron spawns reduced by 1/3
+ +Iron spawns reduced by 1/2
  +Diamonds very rare as ore, but can be sifted from sand by high level miners
  +Gold ore about 1/2 as common, but can be sifted from sand by medium level miners
+ 
 -New Ores
 
  +Common
@@ -299,6 +323,37 @@ Mod Ideas
     <As strong as mithril armor, but slightly heavier on land
     <Helmet grants unlimited breath when worn
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*Magic
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-One of the two end-game branches
+-Based around Alchemy and Spells, which revolve around the element
+ 
+ +Elements
+ 
+  >Light "Lux"
+   <Basic materials: Diamond, diamond dust, glowstone, glowstone dust
+  >Darkness "tenebrae"
+   <Basuc materials: Onyx, onyx dust, Obsidian, obsidian shards
+  >Fire "Ignis"
+   <Basic materials: Rubies, Blaze Rods, blaze powder, Ruby dust
+  >Water "Aqua"
+   <Basic materials: Sapphires, sapphire dust, water, water essence
+  >Earth "Terra"
+   <Basic materials: Enchanted earth, deep stone, dirt, cobblestone
+  
+ +Amulets
+  >Basic representation of each element
+   <Light amulet
+    -Needs gold chain, gem inset,
+    -Light Gem Diamond surrounded by glowstone dust
+    -Assembled by high level jeweler, enchanted by low level Mage
+ +Spells
+  -All spells need a Tome
+  -Crafted with Magic Dust, an amulet of the corrosponding element
+  
+ +Alchemy
+ 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 *To be detailed
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
