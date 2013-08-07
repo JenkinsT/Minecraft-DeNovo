@@ -217,10 +217,19 @@ Last Edit: 8-5-2013
       +Exotic Fighting Axe
       +New, Medium Damage, medium knockback, low reach, fast speed
       +Can be thrown
+      
     -Magic Smithing
-     -Iron Staff shaft
-      +Upgraded Staff base
-      +Enhances Fire and Electric spells
+     
+     +Iron Staff shaft
+      -Upgraded Staff base
+      -Enhances Fire and Earth spells
+     +Gold Staff shaft
+      -Upgraded staff base
+      -Enhances Light and Water spells
+     +Bone staff base
+      -Upgraded staff base
+      -Enhances Dark spells
+      
     -Technology componet smithing
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
