@@ -12,7 +12,7 @@ Last Edit: 8-5-2013
   +Forging/Fighting
 -Bronze
 -Iron
--steel
+-Steel
 -Diamond
   +Jewelry
   +Enchanting
@@ -21,19 +21,19 @@ Last Edit: 8-5-2013
  +EndGame
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 *Professions
-  -Each person can choose one profession, and one secondary, allowing that person to preform specialized actions
-  -Anyone can do teir-0 actions of each core profession, and the actions of tier-0 secondaries
+  -Each person can choose one profession, and one secondary, allowing that person to perform specialized actions
+  -Anyone can do tier-0 actions of each core profession, and the actions of tier-0 secondaries
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 <Primary>
 
 -Blacksmith
- +Required to progress past Bronze
+ +Required to progress past Copper
 -Tailor
  +Makes clothing
 -WoodCutter
  +More efficient at cutting wood
- +Required for exoctic woods
+ +Required for exotic woods
 -Miner
  +More efficient at Mining
  +Required for Exotic ores
@@ -229,6 +229,13 @@ Last Edit: 8-5-2013
      +Bone staff base
       -Upgraded staff base
       -Enhances Dark spells
+    +Flame Forging
+      -Enfuses fire into a blade, lighting enemies on fire apon attack
+      -Needs a low level jeweler
+    +Death Forging
+      -Enfuses death into a blade, placing wither on enemies apon attack
+      -Needs a low level jeweler
+    +
       
     -Technology componet smithing
 
@@ -244,7 +251,7 @@ Last Edit: 8-5-2013
   >Tans raw leather/hides into normal leather.
   >Used for hunters
   >Mix normal leather with bees wax and immerse in water, reapply to Tanning rack
- +Anvils assorted anvils, allowing blacksmiths to hammer heated metals into metal parts
+ +Anvils: assorted anvils, allowing blacksmiths to hammer heated metals into metal parts
   >Stable tool of the blacksmith
   >Various types, based on level of blacksmith
    <Stone - Starter
@@ -258,7 +265,9 @@ Last Edit: 8-5-2013
      +Uses steam power to stamp metal tools
      +Can produce tools without player interaction
      +Lower quality tools, but can mass produce
-
+  +WorkBench: first step above a crafting table.
+   -5x5 crafting GUI, allowing you to make far more varied and complicated tools
+   -2x1 block
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 *New Ores/Changes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
