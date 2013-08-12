@@ -37,6 +37,29 @@ public class Main
 	
 	public static Block StoneAnvil;
 	
+	//needed in Bronze - Iron - Diamond - Orichalcum
+	public static Item BastardSwordBladeDiamond;
+	public static Item BattleAxeHeadDiamond;
+	public static Item DaggerBladeDiamond;
+	public static Item HachetHeadDiamond;
+	public static Item HoeHeadDiamond;
+	public static Item KukriBladeDiamond;
+	public static Item LongSwordBladeDiamond;
+	public static Item LumberAxeHeadDiamond;
+	public static Item MaceHeadDiamond;
+	public static Item MinersMattockHeadDiamond;
+	public static Item PickAxeHeadDiamond;
+	public static Item PikeNSpearHeadDiamond;
+	public static Item PlowBladeDiamond;
+	public static Item ScimitarBladeDiamond;
+	public static Item ScytheBladeDiamond;
+	public static Item ShortSwordBladeDiamond;
+	public static Item ShovelHeadDiamond;
+	public static Item SwordBladeDiamond;
+	public static Item TomahawkHeadDiamond;
+	public static Item WoodCuttersAxeDiamond;
+	public static Item WoodCuttersMatttockDiamond;
+	
     public static Item CopperIngot;
     public static Item TinIngot;
     public static Item LeadIngot;
@@ -96,8 +119,17 @@ public class Main
     {
     	NetworkRegistry.instance().registerGuiHandler(this, this.proxy);
 		instance = this;
-		//GameRegistry.registerBlock(mageticSmelterIdle, "Magetic Smelter");
-		//LanguageRegistry.addName(mageticSmelterBurning, "Magetic Smelter");    	
+		
+		proxy.registerRenderThings();
+        GameRegistry.registerTileEntity(TileEntityStoneAnvil.class, "TileEntityStoneAnvil");
+		
+		BastardSwordBladeDiamond = (new DenovoToolHead(4001)).setUnlocalizedName("bastardswordblade").func_111206_d("minecraftdenovo:bastardswordblade");
+        LanguageRegistry.addName(BastardSwordBladeDiamond, "Diamond Bastard Sword Blade");
+        BattleAxeHeadDiamond = (new DenovoToolHead(4002)).setUnlocalizedName("battleaxeheaddiamond").func_111206_d("minecraftdenovo:battleaxeheaddiamond");
+        LanguageRegistry.addName(BattleAxeHeadDiamond, "Diamond Battleaxe Head");
+        DaggerBladeDiamond = (new DenovoToolHead(4003)).setUnlocalizedName("daggerbladediamond").func_111206_d("minecraftdenovo:daggerbladediamond");
+        LanguageRegistry.addName(DaggerBladeDiamond, "Diamond Dagger Blade");
+		   	
         GameRegistry.registerWorldGenerator(new WorldGeneratorDeNovo());
         CopperIngot = (new DeNovoBasicItems(3001)).setUnlocalizedName("copperingot").func_111206_d("minecraftdenovo:copperingot");
         LanguageRegistry.addName(CopperIngot, "Copper Ingot");

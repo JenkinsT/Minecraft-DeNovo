@@ -1,12 +1,12 @@
 package MinecraftDeNovo.client;
 
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
 import MinecraftDeNovo.CommonProxy;
-import MinecraftDeNovo.ContainerStoneAnvil;
 import MinecraftDeNovo.GuiStoneAnvil;
-import cpw.mods.fml.common.network.IGuiHandler;
+import MinecraftDeNovo.TileEntityStoneAnvil;
+import MinecraftDeNovo.TileEntityStoneAnvilRenderer;
+import cpw.mods.fml.client.registry.ClientRegistry;
 
 public class ClientProxy extends CommonProxy {
 	@Override
@@ -19,4 +19,11 @@ public class ClientProxy extends CommonProxy {
 		return null;
 
 	}
+
+	public void registerRenderThings() {
+		ClientRegistry.bindTileEntitySpecialRenderer(
+				TileEntityStoneAnvil.class,
+				new TileEntityStoneAnvilRenderer());
+	}
+
 }

@@ -4,6 +4,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.src.ModLoader;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
+import cpw.mods.fml.client.registry.ClientRegistry;
 import cpw.mods.fml.common.network.IGuiHandler;
 
 public class CommonProxy implements IGuiHandler {
@@ -25,5 +26,10 @@ public class CommonProxy implements IGuiHandler {
 			return new ContainerStoneAnvil(player.inventory, world, x, y, z);
 		}
 		return null;
+	}
+
+	public void registerRenderThings() {
+		ClientRegistry.bindTileEntitySpecialRenderer(
+				TileEntityStoneAnvil.class, new TileEntityStoneAnvilRenderer());
 	}
 }

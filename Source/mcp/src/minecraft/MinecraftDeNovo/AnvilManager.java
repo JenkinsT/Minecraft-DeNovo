@@ -30,8 +30,10 @@ public class AnvilManager
 
     private AnvilManager()
     {
-    	this.addRecipe(new ItemStack(Item.paper, 7), new Object[] {"#####", '#', Item.reed});
-        Collections.sort(this.recipes, new AnvilRecipeSorter(this));
+    	this.addRecipe(new ItemStack(Main.BastardSwordBladeDiamond, 1), new Object[] {"#####", '#', Item.diamond});
+    	this.addRecipe(new ItemStack(Main.BattleAxeHeadDiamond, 1), new Object[] {"###","  #"," ##","  #","###", '#', Item.diamond});
+    	this.addRecipe(new ItemStack(Main.DaggerBladeDiamond, 1), new Object[] {"#", '#', Item.diamond});
+    	Collections.sort(this.recipes, new AnvilRecipeSorter(this));
     }
 
     public AnvilShapedRecipes addRecipe(ItemStack par1ItemStack, Object ... par2ArrayOfObj)

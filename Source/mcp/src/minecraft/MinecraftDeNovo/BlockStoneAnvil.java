@@ -1,6 +1,6 @@
 package MinecraftDeNovo;
 
-import net.minecraft.block.Block;
+import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.creativetab.CreativeTabs;
@@ -11,7 +11,7 @@ import net.minecraft.world.World;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class BlockStoneAnvil extends Block
+public class BlockStoneAnvil extends BlockContainer
 {
     @SideOnly(Side.CLIENT)
     private Icon workbenchIconTop;
@@ -25,7 +25,7 @@ public class BlockStoneAnvil extends Block
     }
 
   //Make sure you set this as your TileEntity class relevant for the block!
-    /*@Override
+    @Override
     public TileEntity createNewTileEntity(World world) {
             return new TileEntityStoneAnvil();
     }
@@ -45,7 +45,7 @@ public class BlockStoneAnvil extends Block
     //It's not a normal block, so you need this too.
     public boolean renderAsNormalBlock() {
             return false;
-    }*/
+    }
 
     @SideOnly(Side.CLIENT)
 
